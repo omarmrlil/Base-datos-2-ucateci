@@ -18,3 +18,7 @@ para cambiar el nombre de usuario se necesita alter user system identified by @n
 para conectr la base de datos ingrese connect system
 
 para entrar a la configuracion entre connect sys as sysdba y ingrese Admin23r2 o 1234
+
+DESC para describir la tabla con sus elementos
+
+Hr23
