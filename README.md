@@ -22,3 +22,4 @@ para entrar a la configuracion entre connect sys as sysdba y ingrese Admin23r2 o
 DESC para describir la tabla con sus elementos
 
 Hr23
+tncd name donde se guarda la hora y el nombre de lo usuario
