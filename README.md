@@ -23,3 +23,12 @@ DESC para describir la tabla con sus elementos
 
 Hr23
 tncd name donde se guarda la hora y el nombre de lo usuario
+
+
+'' para poner un espacio
+
+|| para concatenar
+
+alter user @usuario identified by @contra;
+
+alter user @usuario account unlock;
