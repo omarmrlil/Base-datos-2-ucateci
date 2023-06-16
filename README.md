@@ -25,9 +25,9 @@ hr 1234
 tncd name donde se guarda la hora y el nombre de lo usuario
 
 
-'' para poner un espacio
+'' para poner un espacio en codigo anci 39
 
-|| para concatenar
+|| para concatenar en codigo anci 124
 
 alter user @usuario identified by @contra;
 
