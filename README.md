@@ -32,3 +32,5 @@ tncd name donde se guarda la hora y el nombre de lo usuario
 alter user @usuario identified by @contra;
 
 alter user @usuario account unlock;
+
+initcap(@cosaque se deja buscar), que es 
