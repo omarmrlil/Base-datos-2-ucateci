@@ -34,3 +34,6 @@ alter user @usuario identified by @contra;
 alter user @usuario account unlock;
 
 initcap(@cosaque se deja buscar), que es 
+
+select COUNT (DISTINCT department_id) empleados, department_id from employees
+GROUP BY department_id;
