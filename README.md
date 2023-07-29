@@ -37,3 +37,14 @@ initcap(@cosaque se deja buscar), que es
 
 select COUNT (DISTINCT department_id) empleados, department_id from employees
 GROUP BY department_id;
+
+sql no es key sensitive
+
+linux si lo es
+
+todas las vistas Terminan en plurar
+
+una vista guarda solo el select +
+para no crear duplicados 
+
+Count(*)
