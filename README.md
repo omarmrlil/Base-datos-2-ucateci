@@ -48,3 +48,23 @@ una vista guarda solo el select +
 para no crear duplicados 
 
 Count(*)
+
+es un if para cambiar 
+select Country_name, decode(Region_ID, 
+'1' , 'Europa', 
+'2' , 'America', 
+'3' , 'Asia', 
+'4' , 'Africa') Region
+from countries;
+
+select first_name || ' ' || last_name, hire_date, TRUNC((sysdate - hire_date)/365) from employees;
+
+select first_name || ' ' || last_name nombre,
+hire_date,
+TRUNC((sysdate - hire_date)/365) AÑOS_servicios,
+CASE 
+WHEN TRUNC((sysdate - hire_date)/365) BETWEEN 0 and 15 then '%5'
+WHEN TRUNC((sysdate - hire_date)/365) BETWEEN 16 and 20 then '%10'
+else '%20'
+end aumento
+from employees;
